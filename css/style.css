@@ -1,0 +1,271 @@
+.bgimage{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("https://images-na.ssl-images-amazon.com/images/I/71HTjrSeI5L.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+  
+}
+.brand1{
+	color: white;
+}
+#drop li a{
+  color: black;
+}
+.nav1 {
+   padding-left:17em;
+    color: white;
+     font-size:20px;
+   
+}
+.nav2{
+	
+	font-size:20px;
+	height:3em;
+}
+#header{
+    padding-top:10px;
+   
+   
+}
+
+
+#header a {
+   color: white;
+   
+}
+
+
+#bootstrapsnipp{
+    margin-top:5em;
+}
+.container,
+.content {
+	margin: auto;
+}
+.container {
+	width: 94.02985075%;
+	max-width: 1260px;
+	padding: 0 2.25em 4em;
+	
+}
+.main-header {
+	text-align: center;
+	padding: 2.8em 0 3.8em;
+}
+.cube-container {
+	max-width: 200px;
+	text-align: center;
+	margin: 0 auto 4.5em;
+}
+/* ---- Page Elements ---- */
+
+.name {
+	font-size: 1.65em;
+	font-weight: 800;
+	margin: 0 0 1.5em;
+	line-height: 1;
+}
+.name span {
+	font-weight: 300;
+	margin-left: -7px;
+}
+.logo {
+	width: 45px;
+	margin-bottom: .4em;
+	cursor: pointer;
+}
+.button {
+	font-size: .8em;
+	color: #fff;
+	width: 90%;
+	line-height: 1.15;
+	font-weight: 700;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .95em 0;
+	border-radius: .5em;
+	background: rgba(200,0,0, .8);
+	margin: auto;
+}
+/* ---- Photo Overlay ---- */
+
+.photo-desc {
+	font-size: .85em;
+	color: #fff;
+	padding: 1.1em 1em 0;
+	background:grey;
+}
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.cube-container {
+		float: left;
+		margin-left: 16.6%;
+	}
+}
+@media (min-width: 1025px) {
+	.cube-container:first-child {
+		margin-left: 0;
+	}
+	.cube-container:last-child{
+		float: right;
+	}
+	.content {
+		max-width: 900px;
+		margin: auto;
+	}
+}
+
+/* ================================= 
+  Button Transitions
+==================================== */
+
+.button {
+	transition: background .3s;
+}
+.button:hover {
+	background: rgba(74,137,202, 1);
+}
+
+/* ================================= 
+  Photo 3D Transforms & Transitions
+==================================== */
+
+.cube-container {
+	box-shadow: 0 18px 40px 5px rgba(0,0,0,.4);
+  perspective: 800px;
+}
+
+.photo-cube {
+transition: transform 2s ease-in-out; 
+  width: 220px;
+  height: 200px;
+  transform-style: preserve-3d;
+}
+
+.photo-cube:hover {
+transform: rotateY(-270deg);
+}
+
+.front,
+.back,
+.left,
+.right {
+width: 100%;
+height: 100%;
+display: block;
+position: absolute;
+}
+
+.front {
+transform: translate3d(0,0,110px);
+}
+
+.back {
+transform: translateZ(-110px) rotateY(270deg);
+  transform-origin: center left;
+}
+
+.left {
+transform: rotateY(-270deg) translate3d(110px, 0, 0);
+  transform-origin: top right;
+}
+
+.right {
+transform: translateZ(-110px) rotateY(180deg);
+ }
+
+.icon {
+width: 70%;
+margin: 0 auto;
+    display: block;
+}
+.icon2 {
+width: 70%;
+margin: 0 auto;
+    display: block;
+}
+ #services {
+   margin-top: 5em;
+    text-align:center;
+} 
+
+@media(min-width: 1200px){
+   #services2 h3  {margin-top: 0;}
+    .icon2{
+       width:80px; 
+        margin-top:1em;
+    }
+    section{
+        margin-bottom:1em;
+        
+    }
+   #services2 {
+   
+    text-align:left;
+} 
+}
+#table{
+    width: 50%;
+    margin: 0 auto;
+     margin-top:2em;
+     margin-bottom:8em;
+}
+#form{
+    margin-right:5em;
+    margin-bottom:10em;
+}
+#Characters{
+    background-color: aliceblue;
+    margin-bottom:10em;
+}
+#imgdrop{
+   margin-top:90px;
+    margin-bottom: 40px;
+  
+   
+}
+#dropdown{
+    margin-top:90px;
+   
+}
+#btngroup1{
+   margin: 0 auto;
+   width: 20%;
+     padding-bottom:7em;
+   
+}      
+
+#btngroup2{
+   margin: 0 auto;
+   width: 50%;
+     padding-bottom:7em;
+   
+}  
+#btngroup3{
+    margin:20px;
+     padding-bottom:7em;
+}
+
+#video1{
+	padding-bottom:10em;
+}
+
+.birdo{
+	  margin: 0 auto;
+}
+.panel1{
+	 padding-bottom:7em;
+}
+    //filter: brightness(50%);
